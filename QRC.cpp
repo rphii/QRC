@@ -327,8 +327,10 @@ bool QRC::IsAlphanumeric()
 }
 
 /**
- * @brief checks if the given character is in the alphanumerical set
- * @return true if that's the case
+ * @brief convert the a character to an alphanumerical code
+ * @param ch - the character to convert
+ * @return the alphanumerical code
+ * @see https://www.thonky.com/qr-code-tutorial/alphanumeric-table
  */
 uint8_t QRC::AlphanumericCode(char ch)
 {
