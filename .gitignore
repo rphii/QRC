@@ -1,0 +1,9 @@
+.codelite
+Debug
+*.bmp
+tags
+QRC.workspace
+QRC.project
+QRC.mk
+QRC.txt
+compile_flags.txt
